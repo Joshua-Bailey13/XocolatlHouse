@@ -1,4 +1,25 @@
-* {
-	margin: 0;
-	padding:0;
+body{
+	background: goldenrod;
+	font-family: 'Slabo 27px', serif;
+	font-size: 100%;
+}
+main{
+	background: saddlebrown;
+	overflow: auto;
+}
+header{
+	background: saddlebrown;
+	overflow: auto;
+}
+.reviews p:nth-child(even){
+	background: lavender;
+}
+.reviews p:nth-child(odd){
+	background: blue;
+}
+.questions li:nth-child(odd) {
+	background: blue;
+}
+.questions li:nth-child(even) {
+	background: gold;
 }
